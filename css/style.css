@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+/* 전체영역 */
+.wrap{
+    width: 1920px;
+    height: 2000vh;
+    background-color: grey;
+}
+/* 상단 */
+.header{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 155px;
+    background-color: orange;
+}
+
+/* top */
+.header-top{
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+.header-top > p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+/* bt */
+.header-bt{
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+}
+.header-bt > .header-bt-inner{
+    width: 1800px;
+    height: 80px;
+    margin: auto;
+    background-color: green;
+}
